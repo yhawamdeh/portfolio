@@ -1,0 +1,41 @@
+body {
+  margin: auto;
+}
+.header {
+  background-color: black;
+  width: 100%;
+}
+.container { 
+  text-align: center; 
+  background-color: white; 
+  padding: 60px;
+  margin: 10% 10%;   
+}
+img {
+  width: 100%;
+}
+.username {
+  border-radius: 20px;
+  width: 60%; 
+  height: 60px; 
+  margin-top: 10px;
+  padding: 10px;
+}
+.password {
+  border-radius: 20px; 
+  width: 60%; 
+  height: 60px;
+  margin-top: 10px;
+  padding: 10px;
+  
+}
+.button1 {
+  border-radius: 20px; 
+  position: absolute; right: 45%;
+  padding: 10px;
+  font-size: 20px;
+  width: 10%;
+}
+::placeholder {
+  font-size: 30px;
+}
