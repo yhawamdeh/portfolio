@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Where all my projects can be viewed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhawamdeh/portfolio.git"
+  },
+  "author": "Yazan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhawamdeh/portfolio/issues"
+  },
+  "homepage": "https://github.com/yhawamdeh/portfolio#readme"
+}
