@@ -1,75 +1,255 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-gb" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yazan Hawamdeh</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>HAWAMDA IT</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link href="css/animate.css" rel="stylesheet" media="screen">
+<link href="flexslider/flexslider.css" rel="stylesheet" />
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+<!-- Font Awesome -->
+<link href="font/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>        
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+<header class="header">
+  <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i>HAWAMDA IT<sup>®</sup></i></b></a> </div>
+      <!--/.navbar-header-->
+      <div id="main-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="mainNav">
+          <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
+          <li><a href="#services" class="scroll-link">How We Work</a></li>
+          <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
+       
+          <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
+        </ul>
+      </div>
+      <!--/.navbar-collapse--> 
+    </nav>
+    <!--/.navbar--> 
+  </div>
+  <!--/.container--> 
+</header>
+<!--/.header-->
+<div id="#top"></div>
+<section id="home">
+  <div class="banner-container"> 
+  <!-- Slider -->
+        <div id="main-slider" class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="images/slides/1.jpg" alt="" />
+                <div class="flex-caption container">
+                  <h4>If you can think it. We can build it.</h4> 
+					        <p>Schedule a consulting meeting with us today!</p> 
+					        <a href="#contactUs" class="btn btn-theme">Schedule</a>
+                </div>
+              </li>
+              <!-- <li>
+                <img src="images/slides/2.jpg" alt="" />
+                <div class="flex-caption container">
+                  <h3>Responsive</h3> 
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisi.</p> 
+					        <a href="#" class="btn btn-theme">Read More</a>
+                </div>
+              </li>
+              <li>
+                <img src="images/slides/3.jpg" alt="" />
+                <div class="flex-caption container">
+                  <h3>Bootstrap</h3> 
+					        <p>Lorem ipsum dolor sit amet, consectetur ersf.</p> 
+					        <a href="#" class="btn btn-theme">Read More</a>
+                </div>
+              </li> -->
             </ul>
-        </nav>
-    </header>
-    <section class="home">
-        <div class="home-welcome">
-            <h2>I'm Yazan.</h2>
-            <p>
-              a web developer.
-            </p>
         </div>
-    </section>
-
-    <div class="projects" id="projects">
-        <table cellspacing="50px" class="book" style="color: white;">
-            <tr>
-                <td><img src="./assets/images/TheTradingBible.png" width="100%"></td>
-                <td style="vertical-align: top;" width="60%" >
-                    <h2 style=" font-size: 2vw; color: white;">Where the thoughts lie...</h2><br>
-                    <p style="line-height: 2; font-size: 20px;">I'm currently writing a book about my experience in trading.<br>Being who I am today, I can sincerely say there is no way to reach success without discipline. It’s the only way to reach the pot of gold. After all these years, I’ve never felt so confident about my trading skills and I can strongly agree, that if it weren’t for the failure, you wouldn’t be reading this right now.<br></nr>I never gave up. Every time I failed; it was an entry to the next experience. While others would give up after failing the first or second time, I remained optimistic. The additional experience always added more to my principles.<br><em>The Trading Bible</em> will review the principles required to maintain consistent returns and build a successful portfolio.</p>
-                </td>
-            </tr>
-        </table>
-        <table cellspacing="50px" style="color: white;">
-            <tr>
-                <td style="vertical-align: top;" width="60%" >
-                    <h2 style=" font-size: 2vw; color: white;">Utilizing APIs</h2><br>
-                    <p style="line-height: 2; font-size: 20px;">Incorporating my programming skills into my ventures is what makes me happy.<br>With InvestorHub™, users can search technical data for stocks, currencies, etc.</p>
-                </td>
-                <td><a href="./investor-hub/index.html"><img src="./assets/images/investorhub.png" class="book" width="100%"></a></td>
-            </tr>
-        </table>
-        <table cellspacing="50px" style="color: white;">
-            <tr>
-                <td><a href="./HAWAMDA-Capital/index.html"><img src="./assets/images/hawamdawebpage.png" class="book" width="100%"></a></td>
-                <td style="vertical-align: top;" width="60%" >
-                    <h2 style=" font-size: 2vw; color: white;">The Ultimate Goal</h2><br>
-                    <p style="line-height: 2; font-size: 20px;">I'm a FINRA member looking to obtain a series 65 license.<br>For quite a while now, I have been looking into hedge funds and the development behind them. It involves APIs and highly secure structures in order to maintain the security of clients' information.<br>I am currently working on a hedge fund platform so that i may take my years of experience in wealth management and develop a trustworthy ecosystem where clients can ensure their invetsments are safe.</p>
-                </td>
-            </tr>
-        </table>
-        
+	<!-- end slider -->
+  </div>
+  
+</section>
+<section id="services" class="page-section colord">
+  <div class="container">
+    <div class="heading text-center"> 
+      <!-- Heading -->
+      <h2>How We Work</h2>
+      <p>Check out our service and what we work with below.</p>
     </div>
+    <div class="row"> 
+      <!-- item -->
+      <div class="col-md-3 text-center"><div class="b1"> <i class="circle"><img src="images/a1.jpg" alt="" /></i>
+        <h3>Analyzing</h3>
+        <p>The current envirnoment is evaluated and a status report is generated.</p>
+      </div></div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"><div class="b1"><i class="circle"> <img src="images/a2.jpg" alt="" /></i>
+        <h3>Identifying</h3>
+        <p>The goal is determined along with the total cost and time allocation of the phases.</p>
+      </div></div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"><div class="b1"><i class="circle"> <img src="images/a3.jpg" alt="" /></i>
+        <h3>Solving</h3>
+        <p>Here the work begins where all the current blueprints are used to move forward.</p>
+      </div></div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"><div class="b1"><i class="circle"> <img src="images/a4.jpg" alt="" /></i>
+        <h3>Complying</h3>
+        <p>Solving and complying with the blueprints are guidlines that are strictly followed.</p>
+      </div></div>
+      <!-- end:--> 
+    </div>
+  </div>
+  <!--/.container--> 
+</section>
+<section id="aboutUs">
+  <div class="container">
+    <div class="heading text-center"> 
+      <!-- Heading -->
+      <h2>About Us</h2>
+      <p>At HAWAMDA IT®, we are motivated by innovation. It is our mission to deliver the end product efficiently.</p>
+    </div>
+    <div class="row feature design">
+      <div class="area1 columns right">
+        <h3>Yazan Hawamdeh</h3>
+        <h4>Founder and CEO</h4>
+        <p style="font-size: 20pt; color:black;">For the past 7 years, I have been delivering work for multiple clients at a personal level. Today, I have expanded my scope into the enterprise level where I provide my services to companies by analayzing their business model and guiding them in the right direction.</p>
+      </div>
+      <div class="area2 columns feature-media left"> <img src="images/IMG_1837.jpg" alt="" width="100%" style="border-radius: 300px;"> </div>
+    </div>
+	
+    </div>
+	
+</section>
 
-    <table cellspacing="20px" style="display: flex; justify-content: center;" id="contact">
-        <tr>
-            <td><img length=150px width=250px style="border-radius: 200px;" src="./assets/images/Yazan.jpg" alt="yazanimg"></td>
-            <td style="text-align: left; color: white;">
-                <h1 style="font-size: 40px; color: white;">Yazan Hawamdeh</h1><br><br>
-                <a href="https://www.linkedin.com/in/yazan-hawamdeh-58a533131/"><img src="./assets/images/linkedin.png" class="contact"></a>
-                <a href="https://twitter.com/alhawamdehy"><img src="./assets/images/twitter.png" class="contact"></a>
-                <a href="https://github.com/yhawamdeh"><img src="./assets/images/github.png" class="contact"></a>
-            </td>
-        </tr>
-    </table>
+<section id="contactUs" class="contact-parlex">
+  <div class="parlex-back">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center"> 
+          <!-- Heading -->
+          <h2>Contact Us</h2>
+          <p>Let us know all about your inquiry below</p>
+        </div>
+      </div>
+      <div class="row mrgn30">
+        <form method="post" action="contact.php" id="contactfrm" role="form">
+          <div class="col-sm-12">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+            </div>
+            <div class="form-group">
+              <label for="comments">Comments</label>
+              <textarea name="message" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+              <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+            </div>
+            <div class="result"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--/.container--> 
+  </div>
+</section>
+<!-- <footer>
+<div class="container">
+        <div class="row">
+            <div class="col-md-3">
+            	<div class="col">
+                   <h4>Contact us</h4>
+                   <ul>
+                        <li>1th Avenue, New York - United States</li>
+                        <li>Phone: +22 342 2345 345 | Fax: +22 724 2342 343 </li>
+                        <li>Email: <a href="mailto:info@example.com" title="Email Us">info@example.com</a></li>
+                        <li>Skype: <a href="skype:my.test?call" title="Skype us">my-company</a></li>
+                    </ul>
+                 </div>
+            </div>
+            
+            <div class="col-md-3">
+            	<div class="col">
+                    <h4>Mailing list</h4>
+                    <p>Lorem ipsum dolor sit amet, ea eum labitur scsstie percipitoleat.</p>
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your email address...">
+                            <span class="input-group-btn">
+                                <button class="btn" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+            	<div class="col col-social-icons">
+                    <h4>Follow us</h4>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-flickr"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-skype"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div>
+            </div>
+
+             <div class="col-md-3">
+             	<div class="col">
+                    <h4>Latest News</h4>
+                    <p>
+                    Lorem ipsum dolor labitur scsstie per sit amet, ea eum labitur scsstie percipitoleat.
+                    <br><br>
+                    <a href="#" class="btn">Get Mores!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+         
+    </div>
+    
+</footer> -->
+<!--/.page-section-->
+<section class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center"> HAWAMDA IT® LLC 2022 | All Rights Reserved </a> </div>
+    </div>
+    <!-- / .row --> 
+  </div>
+</section>
+<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+
+<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
+<script src="js/modernizr-latest.js"></script> 
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script src="js/jquery.nav.js" type="text/javascript"></script> 
+<script src="js/jquery.fittext.js"></script> 
+<script src="js/waypoints.js"></script> 
+<script src="flexslider/jquery.flexslider.js"></script>
+<script src="js/custom.js" type="text/javascript"></script> 
+<script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>
